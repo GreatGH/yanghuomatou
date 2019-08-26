@@ -1,0 +1,59 @@
+.top-navtwo{
+	width: 1200px;
+	margin: 0 auto;
+}
+.top-navtwo .img{
+	display: inline-block;
+}
+.top-navtwo .img img{
+	width: 200px;
+	height: 103px;
+	margin: 15px 0;
+}
+.top-navtwo .navtwo-blank{
+	width: 40px;
+	float: left;
+}
+.top-navtwo .navtwo-search{
+	display: inline-block;
+	margin: 36px 0 0 128px;
+	vertical-align: top;
+}
+.top-navtwo  .navtwo-search .bottom{
+	color: darkgray;
+	margin-top: 9px;
+	font-size: 12px;
+}
+.top-navtwo .navtwo-search .bottom span{
+	padding: 0 5px;
+	border-right: 1px solid #ccc;
+}
+.top-navtwo .navtwo-search .input{
+	font-size: 0;
+	border: 2px solid red;
+}
+.top-navtwo .navtwo-search .input input{
+	width: 380px;
+	font-size: 12px;
+	border: 0;
+	outline: none;
+	background: url(../../img/search.jpg) no-repeat;
+	background-size: 22px 18px;
+	background-position: 4px -2px;
+	padding-left: 33px;
+	/*margin: 0 auto;*/
+}
+
+/*用于修改chrome的placeholder的字体颜色*/
+::-webkit-input-placeholder{
+	color: #ccc;
+}
+.top-navtwo .navtwo-search .input .word{
+	padding: 0 20px;
+	color: white;
+	line-height: 35px;
+	display: inline-block;
+	text-align: center;
+	font-size: 15px;
+	background-color: red;
+}

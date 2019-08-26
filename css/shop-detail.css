@@ -1,0 +1,489 @@
+.top-title{
+	height: 46px;
+	line-height: 46px;
+	background: #f1f1f1;
+}
+.top-title .position-icon{
+	background: url(../../img/position.jpg) no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: -6px;
+	margin-left: 20px;
+}
+.top-title .arrow{
+	background: url(../../img/left-arrow.jpg) no-repeat;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	vertical-align: -6px;
+	margin-left: 10px;
+}
+.shop-img>.left{
+	width: 440px;
+	height: 560px;
+	padding: 20px;
+	border: 1px solid #f1f1f1;
+	padding-bottom: 25px;
+}
+.shop-img>.left.>.img-change{
+	width: 400px;
+	font-size: 0;
+	height: 60px;
+}
+.shop-img>.left>.img>img{
+	width: 400px;
+	height: 400px;
+}
+.shop-img>.left .img-change .leftarrow,.shop-img>.left .img-change .rightarrow{
+	display: inline-block;
+	height: 56px;
+	width: 19px;
+	text-align: center;
+	line-height: 56px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	vertical-align: 25px;
+	cursor: pointer;
+	margin-left: 5px;
+	font-size: 12px;
+	color: #ccc;
+}
+.shop-img>.left .img-change .qiehuan-out{
+	width: 330px;
+	display: inline-block;
+	position: relative;
+	height: 59px;
+	font-size: 0;
+}
+.shop-img>.left .img-change .qiehuan-out .img-qiehuan{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.shop-img>.left .img-change .leftarrow{
+	margin-right: 6px;
+}
+.shop-img>.left .img-change img{
+	width: 56px;
+	height: 56px;
+	margin-right: 10px;
+	border: 1px solid #fff;
+}
+.shop-img>.left .bottom-icon{
+	margin-top: 20px;
+}
+.shop-img>.left .bottom-icon .share-icon{
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	margin-right: 10px;
+	background: url(../../img/share-icon.png) no-repeat;
+}
+.shop-img>.left .bottom-icon .share-img{
+	width: 110px;
+	height: 16px;
+	display: inline-block;
+	background: url(../../img/share.png) no-repeat;
+	vertical-align: -3px;
+}
+.shop-img>.left .bottom-icon .save-shop{
+	float: right;
+	border: 1px solid #f1f1f1;
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: -5px;
+	cursor: pointer;
+}
+.shop-img>.right{
+	height: 560px;
+	width: 760px;
+	border: 1px solid #f1f1f1;
+	border-left: 0;
+	padding: 20px 20px 20px 30px;
+}
+.shop-img>.right .top-country{
+	margin-bottom: 14px;
+}
+.shop-img>.right .top-country .guoqi{
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	display: inline-block;
+	background: url(../../img/deguo.png) no-repeat;
+}
+.shop-img>.right .top-country .country-store{
+	vertical-align: 7px;
+	color: #838383;
+}
+.shop-img>.right .shop-name{
+	font-size: 20px;
+	line-height: 30px;
+}
+.shop-img>.right .shop-intro{
+	line-height: 20px;
+}
+.shop-img>.right .tuangou-price{
+	margin-top: 36px;
+}
+.shop-img>.right .tuangou-price .yuan{
+	color: #ff6600;
+}
+.shop-img>.right .tuangou-price .tuang-price{
+	color: #ff6600;
+	font-size: 30px;
+}
+.shop-img>.right .tuangou-price .tuan{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #ff6600;
+	text-align: center;
+	line-height: 20px;
+	vertical-align: 4px;
+	border-radius: 3px;
+}
+.shop-img>.right .tuangou-price .free-send{
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	background: #ff6600;
+	text-align: center;
+	vertical-align: 5px;
+	border-radius: 3px;
+}
+.shop-img>.right .market .market-price{
+	color: #a0a0a0;
+}
+.shop-img>.right .market .price-num{
+	text-decoration: line-through;
+	color: #a0a0a0;
+}
+.shop-img>.right .down-time-icon{
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+	background: url(../../img/clock.png) no-repeat;
+	vertical-align: -3px;
+	margin-right: 5px;
+}
+.shop-img>.right .down-time>.time{
+	font-size: 18px;
+	color: #ff6600;
+	font-weight: bold;
+}
+.shop-img>.right .shuifei-title{
+	color: #959595;
+}
+.shop-img>.right .shuifei{
+	margin-top: 40px;
+}
+.shop-img>.right .shuifei select{
+	border: 0;
+	outline: none;
+}
+.shop-img>.right .shuifei .down-arrow{
+	background: url(../../img/down-arrow.png) no-repeat;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: -7px;
+}
+.guess-love{
+	margin-top: 20px;
+}
+.guess-love>.left{
+	width: 220px;
+	margin-right: 20px;
+}
+.guess-love>.left>.top-title{
+	height: 40px;
+	border: 1px solid #f1f1f1;
+	line-height: 38px;
+	padding-left: 10px;
+}
+.guess-love>.left ul img{
+	width: 64px;
+	height: 64px;
+	margin-right: 10px;
+	float: left;
+}
+.guess-love>.left ul li{
+	height: 84px;
+	padding: 10px;
+	border: 1px solid #f1f1f1;
+	border-top: 0;
+}
+.guess-love>.left ul .intro{
+	line-height: 22px;
+	float: left;
+	width: 122px;
+}
+.guess-love>.left ul .intro>.price>.rel-price{
+	color: #ff627d;
+}
+.guess-love>.right{
+	width: 960px;
+}
+.guess-love>.right>div:first-child{
+	border: 1px solid #f1f1f1;
+}
+.guess-love>.right>div:first-child img{
+	width: 958px;
+	height: 610px;
+	vertical-align: -3px;
+}
+.guess-love>.right .top-chose{
+	height: 40px;
+	line-height: 37px;
+	background: #f1f1f1;
+}
+.guess-love>.right .top-chose>ul>li{
+	padding: 0 25px;
+	border-top: 2px solid transparent;
+	float: left;
+	cursor: pointer;
+}
+.guess-love>.right .top-chose>.phone-buy{
+	padding: 0 30px;
+}
+.guess-love>.right .top-chose>.phone-buy>.qrcode{
+	background: url(../../img/phone-qrcode.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	vertical-align: -2px;
+	display: inline-block;
+	margin-left: 6px;
+}
+.guess-love>.right .shop-message{
+	margin: 20px;
+}
+.guess-love>.right .shop-message li{
+	width: 25%;
+	color: #959595;
+	line-height: 24px;
+	float: left;
+}
+.guess-love>.right .share-pingjia{
+	border: 1px solid #f1f1f1;
+	margin: 20px 0;
+}
+.guess-love>.right .pingjia-inp{
+	width: 100%;
+	height: 50px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	background: #f2f2f2;
+	color: #FF2D52;
+	display: none;
+	line-height: 50px;
+}
+.guess-love>.right .pingjia-inp span{
+	line-height: 30px;
+}
+.guess-love>.right .pingjia-inp .text-pingjia{
+	width: 200px;
+	height: 28px;
+	line-height: 28px;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+.guess-love>.right .pingjia-inp button{
+	display: inline-block;
+	height: 30px;
+	width: 50px;
+	font-size: 14px;
+}
+.guess-love>.right>.share-pingjia>.pingjia-left{
+	padding: 12px;
+}
+.share-pingjia{
+	border: 1px solid #f1f1f1;
+	width: 100%;
+}
+.share-pingjia>.pingjia-left .good-pingjia{
+	margin-top: 10px;
+}
+.share-pingjia>.pingjia-left .good-pingjia>.good-left{
+	padding: 10px 25px;
+}
+.good-pingjia>.good-left .pecent{
+	font-size: 24px;
+}
+.good-pingjia>.dutiao{
+	margin-top: 10px;
+}
+.good-pingjia>.dutiao>div{
+	margin-bottom: 3px;
+}
+.good-pingjia>.dutiao .dutiao-length{
+	display: inline-block;
+	background: #FF2D52;
+	height: 12px;
+	vertical-align: -2px;
+}
+.good-pingjia>.dutiao .top{
+	width: 190px;
+}
+.good-pingjia>.dutiao .mid{
+	width: 10px;
+}
+.share-pingjia>.go-pingjia{
+	padding: 15px 50px;
+	border-left: 1px solid #f1f1f1;
+	margin: 14px 0;
+}
+.go-pingjia>button{
+	background: #FF2D52;
+	padding: 13px 30px;
+	outline: 0;
+	outline: none;
+	border-width: 1px;
+	border-radius: 5px;
+	color: white;
+}
+.go-pingjia>p{
+	text-align: center;
+}
+.guess-love>.right .border-pingjia{
+	border: 1px solid #f1f1f1;
+}
+.guess-love>.right .all-pingjia-title{
+	height: 40px;
+	line-height: 37px;
+	background: #f1f1f1;
+}
+.all-pingjia-title>li{
+	padding: 0 25px;
+	border-top: 2px solid transparent;
+	float: left;
+	cursor: pointer;
+}
+.detail-pingjia>li{
+	border-bottom: 1px solid #f1f1f1;
+	margin: 20px 20px 0 20px;
+}
+.detail-pingjia>li>.left{
+	margin-right: 18px;
+	margin-left: 5px;
+	width: 75px;
+	height: 80px;
+}
+.detail-pingjia>li>.left>img{
+	width: 56px;
+	height: 56px;
+}
+.detail-pingjia>li>.right{
+	width: 820px;
+	padding-right: 20px;
+}
+.detail-pingjia>li>.right ul li{
+	float: left;
+	margin-right: 10px;
+}
+.detail-pingjia>li>.right ul img{
+	width: 56px;
+	height: 56px;
+}
+.detail-pingjia>li>.right>.border-dash{
+	border-bottom: 1px dashed #f1f1f1;
+	width: 800px;
+	height: 125px;
+}
+.detail-pingjia>li>.right>.send-back{
+	color: #ccc;
+	height: 50px;
+	line-height: 50px;
+}
+.change-pages{
+	margin: 20px 0;
+}
+.change-pages .last,.change-pages .next{
+	padding: 10px 14px;
+	display: inline-block;
+	border: 1px solid #f1f1f1;
+	border-radius: 3px;
+}
+.change-pages .pages{
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid #f1f1f1;
+	border-radius: 3px;
+}
+.change-page{
+	margin: 20px 0;
+}
+.change-page .last,.change-page .next{
+	padding: 10px 14px;
+	display: inline-block;
+	border: 1px solid #f1f1f1;
+	border-radius: 3px;
+}
+.change-page .pages{
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid #f1f1f1;
+	border-radius: 5px;
+}
+.zixun{
+	border: 1px solid #f1f1f1;
+	height: 90px;
+	margin-bottom: 20px;
+}
+.zixun>.left-zixun{
+	margin: 10px 24px 10px 15px;
+}
+.zixun>.left-zixun-top{
+	width: 700px;
+	margin: 10px 10px 20px 10px;
+	height: 64px;
+}
+.zixun>.right-zixun-top{
+	margin: 8px;
+	border-left: 1px solid #F1F1F1;
+	padding: 12px 51px;
+	width: 220px;
+	height: 64px;
+}
+.zixun>.right-zixun-top>button{
+	padding: 10px 30px;
+	border-radius: 5px;
+	outline: none;
+	border-width: 1px;
+}
+.tuijian{
+	border: 1px solid #f1f1f1;
+}
+.tuijian>.tuijian-top{
+	height: 39px;
+	padding: 0 8px 0 12px;
+}
+.tuijian>.tuijian-top .chan-icon{
+	background: url(../../img/2.png) no-repeat;
+	background-size: 68px 68px;
+	background-position: 3px -20px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: -3px;
+}
+.tuijian>.tuijian-bottom{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.tuijian>.tuijian-bottom>div>img{
+	width: 170px;
+	height: 170px;
+}
+.tuijian>.tuijian-bottom>div>p{
+	line-height: 20px;
+	width: 170px;
+}
+.tuijian>.tuijian-bottom>div>div{
+	line-height: 26px;
+}

@@ -1,0 +1,69 @@
+.someartitle-title{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: #FF2D52;
+	background: #f3f3d0;
+}
+.someartitle-title>span{
+	padding-right: 5px;
+}
+.someartitle-title .position-icon{
+	padding-left: 10px;
+	display: inline-block;
+	width: 12px;
+	height: 18px;
+	background: url(../../img/position.jpg) no-repeat;
+	vertical-align: -4px;
+	margin-left: 30px;
+}
+.someartitle-title .arrow{
+	display: inline-block;
+	width: 5px;
+	height: 8px;
+	background: url(../../img/left-arrow.jpg) no-repeat;
+}
+.artitle-content{
+	width: 960px;
+}
+.artitle-content .artitle-title{
+	font-size: 22px;
+	margin-top: 40px;
+}
+.artitle-content .time{
+	margin-top: 30px;
+}
+.artitle-content img{
+	margin-top: 25px;
+	width: 640px;
+	height: 400px;
+}
+.artitle-content .picorredio{
+	margin-top: 20px;
+}
+.artitle-content .allparagraph{
+	margin-top: 36px;
+	text-align: left;
+}
+.allparagraph .paragraph{
+	margin-bottom: 36px;
+}
+.hot-artitle{
+	width: 220px;
+	background: #fdfde8;
+	margin-right: 10px;
+}
+.hot-artitle .hot-title{
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #e2e2e2;
+}
+.hot-artitle .hot-content p{
+	line-height: 24px;
+}
+.hot-artitle .hot-content p span{
+	font-size: 24px;
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+}

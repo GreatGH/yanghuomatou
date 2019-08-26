@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/aside-nav.css" />
+		<link rel="stylesheet" href="../css/css/font-awesome.min.css" />
+	</head>
+	<body>
+		<div class="public-aside-nav">
+			<div class="aside-nav">
+				<div class="aside-nav-body">
+					<div class="user" id="user">
+						<i class="fa fa-user-o user-icon" id="user-icon" aria-hidden="true"></i>
+						<a href="final-user-center.html" class="user-center" id="user-center">个人中心</a>
+					</div>
+					<div class="shopping-cat">
+						<i class="fa fa-shopping-cart shopping-cat-icon" aria-hidden="true"></i>
+						<i class="word">我的购物车</i>
+						<span class="car-num">2</span>
+					</div>
+					<div class="cus-service">
+						<i class="fa fa-reddit-alien cus-service-icon"></i>
+						<a href="#" class="relate-server" id="relate-server">联系客服</a>
+					</div>
+				</div>
+				<div class="aside-nav-bottom">
+					<div class="qrcode">
+						<a href="#">二维码</a>
+						<div class="qrcode-pic">
+							<img src="../img/qrcode.png"/>
+						</div>
+					</div>
+					<div class="go-top">
+						<a class="fa fa-arrow-up go-top-icon" aria-hidden="true"></a>
+					</div>
+				</div>
+			</div>
+			<!--弹出购物车-->
+			<div class="shopcat-detail shopcat-tanchu">
+				<div class="shopcat-control">
+					<div class="top-title">
+						<span class="icon"></span>
+						<a href="final-myshopcat.html" class="name fonts-16">购物车</a>
+					</div>
+					<ul class="manu">
+						<li class="clearfix">
+							<img src="../img/3.jpg" alt="" />
+							<div class="fr">
+								<p class="manu-name overflow-2">实物商品标题实物商品标题实物商品标题实物商品标题实物商品标题实物商品标题</p>
+								<div class="clearfix price">
+									<span class="now-price fl">￥999.00</span>
+									<a href="#" class="delete fr">删除</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="cat-bottom">
+						<p class="shop-total">共一件，总计：<span class="fontc-red">￥999.00</span></p>
+						<button class="buy bgcolor-red fontc-white">去购物车结算</button>
+					</div>
+				</div>
+			</div>
+			<div class="cus-server shopcat-tanchu">
+				<div class="cus-control">
+					<div class="online-server online-server-top">
+						<div class="title">
+							<p class="online-title fontc-red">在线客服</p>
+							<p class="online-server-time fonts-14">服务时间：09:00-18:00</p>
+						</div>
+					</div>
+					<div class="server-num online-server">
+						<p class="zixun fonts-14">请选择您需要咨询的内容</p>
+						<ul>
+							<li>
+								<span class="online-icon"></span>
+								<span class="zixun-server fonts-14">在线客服01</span>
+							</li>
+							<li>
+								<span class="online-icon"></span>
+								<span class="zixun-server fonts-14">在线客服01</span>
+							</li>
+							<li>
+								<span class="online-icon"></span>
+								<span class="zixun-server fonts-14">在线客服01</span>
+							</li>
+							<li>
+								<span class="online-icon"></span>
+								<span class="zixun-server fonts-14">在线客服01</span>
+							</li>
+							<li>
+								<span class="online-icon"></span>
+								<span class="zixun-server fonts-14">在线客服01</span>
+							</li>
+							<li>
+								<span class="online-icon"></span>
+								<span class="zixun-server fonts-14">在线客服01</span>
+							</li>
+						</ul>
+						<div>
+							<div class="top-tel">
+								<div class="specal-icon">
+									<p class="specal-line fonts-18">400专线</p>
+									<p class="specal-time fonts-12">周一至周日9:00-18:00</p>
+								</div>
+								<p class="fontc-red tel-num">400-829-8366</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</body>
+</html>
+<script type="text/javascript">
+	//用户中心
+	var usericon = document.querySelector('#user-icon');
+	var gotop = document.querySelector('.aside-nav .aside-nav-bottom .go-top a');
+	var usercenter = document.getElementById('user-center');
+	var user = document.getElementById('user');
+	usericon.onmouseenter = function() {
+		usericon.style.backgroundColor = 'black';
+		usercenter.style.backgroundColor = '#383838';
+		usercenter.style.cursor = 'pointer'
+		usercenter.style.right = '30px';
+		usercenter.style.fontSize = '12px';
+		usercenter.style.lineHeight = '30px';
+		usercenter.style.transitionDuration = '0.3s';
+	}
+	user.onmouseleave = function(){
+		usercenter.style.cursor = 'default';
+		usercenter.style.right = '50px';
+		usercenter.style.lineHeight = '12px';
+		usericon.style.backgroundColor = '#383838';
+		usercenter.style.backgroundColor = 'transparent';
+		usercenter.style.fontSize = '0';
+	}
+	
+	//2秒回到顶部
+	gotop.onclick = function(){
+		var scrollTop = document.documentElement.scrollTop;
+		console.log(scrollTop);
+		//每走1px用的时间
+		var speed = scrollTop/(1000/10);
+		console.log(speed);
+		var i=0;
+		var timer = setInterval(function(){
+			scrollTop -=speed;
+			console.log(scrollTop)
+			document.documentElement.scrollTop = scrollTop;
+			if(scrollTop<=0){
+				clearInterval(timer);
+			}
+		},1)
+	}
+	//客服
+	var relateServer = document.querySelector('#relate-server');
+	var cusServericon = document.querySelector('.cus-service-icon');
+	var cusServer = document.querySelector('.cus-service');
+	cusServericon.onmouseenter = function(){
+		cusServericon.style.backgroundColor = 'black';
+		relateServer.style.backgroundColor = '#383838';
+		usercenter.style.cursor = 'pointer'
+		relateServer.style.right = '30px';
+		relateServer.style.fontSize = '12px';
+		relateServer.style.lineHeight = '34px';
+		relateServer.style.transitionDuration = '0.3s';
+	}
+	cusServer.onmouseleave = function(){
+		cusServericon.style.backgroundColor = '#383838';
+		relateServer.style.backgroundColor = 'transparent';
+		relateServer.style.right = '50px';
+		usercenter.style.cursor = 'default';
+		relateServer.style.lineHeight = '10px';
+		relateServer.style.fontSize = '0';
+	}
+	//购物车
+	var shopcat = document.querySelector('.shopping-cat');
+	var shopdetail = document.querySelector('.shopcat-detail');
+	var publicnav = document.querySelector('.public-aside-nav');
+	var shopcatcontrol = document.querySelector('.shopcat-control');
+	var cusServer = document.querySelector('.cus-server');
+	var onlineControl = document.querySelector('.cus-control');
+	var shopcatjudge = 1;
+	var cusServericonjudge = 1;
+	shopcat.onclick = function(){
+		if(shopcatjudge%2){
+			shopdetail.style.right = '30px';
+			shopdetail.style.zIndex = '0';
+			cusServer.style.zIndex ='-1';
+			shopdetail.style.transitionDuration = '0.3s';
+			cusServericonjudge = 1;
+		}else{
+			shopdetail.style.right = '-270px';
+			cusServer.style.zIndex ='0';
+			shopdetail.style.transitionDuration = '0.3s';
+		}
+		shopcatjudge++;
+	}
+	cusServericon.onclick = function(){
+		if(cusServericonjudge%2){
+			cusServer.style.right = '30px';
+			cusServer.style.zIndex ='0';
+			shopdetail.style.zIndex = '-1';
+			cusServer.style.transitionDuration = '0.3s';
+			shopcatjudge = 1;
+			shopdetail.style.right = '-270px';
+			shopdetail.style.transitionDuration = '0.3s';
+		}else{
+			cusServer.style.right = '-270px';
+			shopdetail.style.zIndex = '0';
+			cusServer.style.transitionDuration = '0.3s';
+		}
+		cusServericonjudge++;
+	}
+</script>

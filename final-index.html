@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<link rel="stylesheet" href="../css/public.css" />
+	</head>
+	<body>
+		<!--顶部nav-->
+		<div id="topnav-body"></div>
+		<!--搜索-->
+		<div id="search-body"></div>
+		<!--商品分类-->
+		<div id="classify-body"></div>
+		<!--推荐商品-->
+		<div id="recommend-body" class="public-bottom"></div>
+		<!--特价秒杀-->
+		<div id="special-body" class="public-bottom"></div>
+		<!--母婴用品1-->
+		<div class="childuse-body public-bottom"></div>
+		<!--母婴用品2-->
+		<div class="childuse-body public-bottom"></div>
+		<!--母婴用品3-->
+		<div class="childuse-body public-bottom"></div>
+		<!--猜你喜欢-->
+		<div id="guess-body" class="public-bottom"></div>
+		<!--侧边栏-->
+		<div id="aside-body" class="public-bottom"></div>
+		<!--底部-->
+		<div id="bottom-body" class="public-bottom"></div>
+	</body>
+</html>
+<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/tools.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function(){
+		$.lineAnimate()
+		$('#topnav-body').load('public-nav.html')
+		$('#search-body').load('search.html')
+		$('#classify-body').load('classify.html');
+		$('#article-detail-body').load('article-detail.html')
+		$('#recommend-body').load('recommend.html');
+		$('#special-body').load('special-kill.html');
+		$('.childuse-body').load('child-using.html');
+		$('#guess-body').load('guess-loving.html');
+		$('#aside-body').load('aside-nav.html')
+		$('#bottom-body').load('bottom.html')
+	})
+</script>
