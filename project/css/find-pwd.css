@@ -1,0 +1,135 @@
+.find-pwd{
+	padding-bottom: 200px;
+}
+.path{
+	width: 570px;
+	margin: 0 auto; 
+	padding-top: 80px;
+}
+.step-all{
+	position: relative;
+	width: 520px;
+	margin: 0 auto;
+}
+.step{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	line-height: 25px;
+	text-align: center;
+	background: #FF2D52;
+	color: white;
+	box-shadow:  0 0 0 4px rgba(255,192,203,0.5);
+	opacity: 0.5;
+}
+.step.on{
+	opacity: 1;
+}
+.road{
+	width: 220px;
+	height: 4px;
+	margin-top: 10px;
+	background: #ccc;
+}
+.judge-id{
+	margin-left: -22px;
+}
+.complete{
+	margin-right: 25px;
+}
+.step-exp{
+	text-align: center;
+}
+.step-name{
+	padding-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	width: 570px;
+	margin: 0 auto;
+}
+.all-set{
+	width: 586px;
+	margin: 0 auto;
+	height: 256px;
+}
+.aperation{
+	margin-top: 76px;
+	display: none;
+}
+.aperation.on{
+	display: block;
+}
+.aperation>div{
+	height: 40px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 0;
+	width: 586px;
+	margin: 0 auto 20px;
+}
+.aperation .name{
+	width: 100px;
+	text-align: right;
+	height: 40px;
+	line-height: 40px;
+}
+.aperation .prompt{
+	height: 40px;
+	width: 170px;
+	margin-left: 10px;
+	text-align: left;
+	font-weight: bold;
+	color: #FF2D52;
+}
+.aperation .tel>input{
+	width: 304px;
+	background: url(../../img/phone.jpg) no-repeat;
+	background-position: 7px 11px;
+}
+.aperation .tel>.pwd,.aperation .tel>.repwd{
+	background: url(../../img/pwd.jpg) no-repeat;
+	background-position: 7px 11px;
+}
+.aperation .verification>input{
+	width: 179px;
+	background: url(../../img/promcode.jpg) no-repeat;
+	background-position: 7px 11px;
+}
+.aperation input{
+	height: 40px;
+	line-height: 38px;
+	border: 1px solid #ccc;
+	padding-left: 30px;
+}
+.verification>.get-code{
+	display: inline-block;
+	margin-left: 20px;
+	width: 106px;
+	height: 40px;
+	vertical-align: 1px;
+	cursor: pointer;
+}
+.aperation .next-btn>input{
+	padding: 0;
+	outline: none;
+	width: 304px;
+	height: 40px;
+	background: #FF2D52;
+	color: white;
+	cursor: pointer;
+}
+.aperation .congradulation{
+	background: url(../../img/right-gou.png) no-repeat;
+	width: 80px;
+	height: 80px;
+}
+.aperation .congra-word{
+	height: 80px;
+	text-align: left;
+}
+.aperation .congra-word .top-word{
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 40px;
+	height: 40px;
+}

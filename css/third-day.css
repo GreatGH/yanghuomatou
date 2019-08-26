@@ -1,0 +1,76 @@
+/* all */
+*{margin: 0;padding: 0;}
+
+/* nav */
+nav{
+	width: 100%;
+	background-color: #FF2d52;
+}
+.main-nav{
+	width: 1000px;
+	margin: 0 auto;
+}
+.main-nav .nav-left{
+	width: 170px;
+	background-color: #ec193e;
+}
+.main-nav .nav-left,.main-nav .nav-right li,.main-nav .nav-right{
+	line-height: 40px;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+.main-nav .nav-right li{
+	padding: 0 10px;
+}
+.main-nav .nav-right li:hover{
+	background-color: #ec193e;
+}
+/* page */
+.page{
+	margin: 0 10px;
+	text-align: right;
+}
+.page .btn{
+	display: inline-block;
+	width: 38px;
+	line-height: 38px;
+	font-size: 12px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #f6f6f6;
+}
+.page .btn:hover{
+	background: #717171;
+	border-color: #717171;
+}
+.page .btn:first-child,.page li:last-child{
+	width: 68px;
+}
+.page .btn.current{
+	border-color: #717171;
+	background-color: #717171;
+}
+.page .btn.disable{
+	cursor: not-allowed;
+	background-color: white;
+	border-color: #ccc;
+	color: #ccc;
+}
+
+
+#app-6{
+	text-align: right;
+}
+#app-6 p{
+	margin-right: 140px;
+}
+
+/* 图片定位 */
+.background{
+	width: 1000px;
+	margin: 0 auto;
+}

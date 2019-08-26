@@ -1,0 +1,134 @@
+.cut-content{
+	height: 320px;
+	width: 100%;
+}
+.cut-title{
+	border-bottom: 2px solid #FF2D52;
+	line-height: 50px;
+}
+.cut-title .main-title{
+	font-size: 24px;
+	font-weight: bold;
+	color: #FF2D52;
+}
+.cut-title .last-time{
+	font-size: 14px;
+	color: #aaa;
+}
+.cut-title .time{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 24px;
+	color: white;
+	background-color: #383838;
+}
+.cut-content .cut-content-left {
+	width: 950px;
+	height: 320px;
+	box-sizing: border-box;
+	/*border-right: 1px solid #ccc;*/
+}
+.cut-content .cut-content-left>li{
+	float: left;
+	/*border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;*/
+	width: 33.3333%;
+	height: 160px;
+}
+.cut-content .cut-content-left li img{
+	float: left;
+	width: 110px;
+	height: 110px;
+	padding-right: 10px;
+}
+.cut-content .cut-content-left li .thing{
+	width: 145px;
+	height: 108px;
+	float: left;
+}
+.cut-content .cut-content-left li .cut-shop-intro{
+	line-height: 18px;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.cut-price{
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.cut-price .before{
+	color: #7f7f7f;
+	text-decoration: line-through;
+}
+.cut-content .progress{
+	width: 60px;
+	height: 8px;
+	border: 1px solid #fe9373;
+	border-radius: 4px;
+	display: inline-block;
+}
+.cut-content .progress .progress-now{
+	width: 50%;
+	height: 100%;background-color: #FE9373;
+}
+.thing .last-thing{
+	color: #ff9567;
+	line-height: 22px;
+}
+.thing button{
+	height: 28px;
+	background-color: #FF2D52;
+	color: white;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid #FF2D52;
+	cursor: pointer;
+	padding: 0 10px;
+}
+.cut-content-right{
+	width: 250px;
+	height: 100%;
+	background-color: #d4e9fa;
+	float: left;
+	padding: 50px;
+	box-sizing: border-box;
+}
+.cut-content-right .enter{
+	width: 150px;
+	height: 230px;
+	box-sizing: border-box;
+	border: 2px solid white;
+	margin: 0 auto;
+	padding: 50px 30px;
+}
+.cut-content-right .enter .inside-content{
+	width: 90px;
+}
+.inside-content .check{
+	font-size: 22px;
+	color: white;
+	line-height: 34px;
+}
+.inside-content .blank{
+	width: 100%;
+	border: 1px solid white;
+}
+.inside-content .timelimit{
+	font-size: 30px;
+	color: white;
+	line-height: 44px;
+}
+.inside-content a{
+	display: inline-block;
+	width: 100%;
+	font-size: 14px;
+	line-height: 30px;
+	background-color: #a8b5bf;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}

@@ -1,0 +1,375 @@
+.nav-top{
+	width: 100%;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #ddd;
+}
+.nav-content{
+	width: 1200px;
+	margin: 0 auto;
+	line-height: 34px;
+}
+.top-nav{
+	width: 100%;
+	background-color: #f7f7f7;
+}
+.nav-body,.top-navtwo{
+	width: 1200px;
+	margin: 0 auto;
+}
+.top-nav .nav-body .nav-left{
+	float: left;
+}
+.top-nav .nav-body .nav-left span:last-child{
+	border: 0;
+}
+.top-nav .nav-body .nav-right span:last-child{
+	border: 0;
+}
+.top-nav .nav-body .nav-left span,.top-nav .nav-body .nav-right span{
+	font-size: 12px;
+	line-height: 40px;
+	padding: 0 10px 0 5px;
+	border-right: 1px solid #CCCCCC;
+}
+.top-nav .nav-body .nav-right{
+	float: right;
+}
+.top-navtwo .img{
+	display: inline-block;
+}
+.top-navtwo .img img{
+	width: 200px;
+	height: 103px;
+	margin: 15px 0;
+}
+.top-navtwo .navtwo-blank{
+	width: 40px;
+	float: left;
+}
+.top-navtwo .navtwo-search{
+	display: inline-block;
+	margin: 36px 0 0 128px;
+	vertical-align: top;
+}
+.top-navtwo  .navtwo-search .bottom{
+	color: darkgray;
+	margin-top: 9px;
+	font-size: 12px;
+}
+.top-navtwo .navtwo-search .bottom span{
+	padding: 0 5px;
+	border-right: 1px solid #ccc;
+}
+.top-navtwo .navtwo-search .input{
+	font-size: 0;
+	border: 2px solid red;
+}
+.top-navtwo .navtwo-search .input input{
+	width: 380px;
+	font-size: 12px;
+	border: 0;
+	outline: none;
+	background: url(../img/search.jpg) no-repeat;
+	background-size: 22px 18px;
+	background-position: 4px -2px;
+	padding-left: 33px;
+	/*margin: 0 auto;*/
+}
+
+/*用于修改chrome的placeholder的字体颜色*/
+::-webkit-input-placeholder{
+	color: #ccc;
+}
+.top-navtwo .navtwo-search .input .word{
+	padding: 0 20px;
+	color: white;
+	line-height: 35px;
+	display: inline-block;
+	text-align: center;
+	font-size: 15px;
+	background-color: red;
+}
+.main-login{
+	background: url(../img/regiseterbg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.login{
+	width: 1200px;
+	margin: 0 auto;
+}
+.login input{
+	border: 1px solid #ccc;
+}
+.login .login-content{
+	float: right;
+	padding: 20px;
+	width: 350px;
+	box-sizing: border-box;
+	background-color: white;
+	margin: 20px 50px 20px 0;
+}
+.login .telnum{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 	5px;
+	box-sizing: border-box;
+	padding-left: 25px;
+	background: url(../img/phone.jpg) no-repeat;
+	background-position: 6px 8px;
+}
+.login .pwd,.login .re-pwd{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 25px;
+	box-sizing: border-box;
+	background: url(../img/pwd.jpg) no-repeat;
+	padding-left: 25px;
+	background-position: 6px 8px;
+}
+.login .login-code{
+	margin-bottom: 25px;
+}
+.login .login-code .input-code{
+	background: url(../img/promcode.jpg) no-repeat;
+	background-position: 6px 8px;
+	box-sizing: border-box;
+	padding-left: 25px;
+	width: 190px;
+	height: 40px;
+}
+.login .login-code .code{
+	width: 110px;
+	height: 40px;
+	background-color: #FF2D52;
+	color: white;
+	outline: none;
+}
+.login .login-input-top{
+	margin-bottom: 20px;
+}
+.login .login-input-top .prom{
+	font-size: 22px;
+}
+.login .login-input-top .prom-right{
+	float: right;
+	line-height: 37px;
+}
+.login .tel-prom{
+	line-height: 20px;
+	color: #d9d9d9;
+}
+.login .tel-prom .icon{
+	background-color: #d0d0d0;
+	border-radius: 10px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	color: white;
+	box-sizing: border-box;
+}
+.login .register-btn{
+	width: 100%;
+	font-size: 16px;
+	padding: 12px 0;
+	background-color: #FF2D52;
+	color: white;
+	margin-top: 5px;
+	border-width: 1px;
+}
+
+/* 侧边框 */
+.aside-nav{
+	height: 100%;
+	width: 30px;
+	background-color: #383838;
+	position: fixed;
+	right: 0;
+	z-index: 1000090;
+	text-align: center;
+	top: 0;
+}
+.aside-nav .aside-nav-body{
+	position: relative;
+	top: 15%;
+}
+.aside-nav .aside-nav-body .user{
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	position: relative;
+}
+.aside-nav .aside-nav-body .user .user-center{
+	position: absolute;
+	width: 80px;
+	right: 50px;
+	color: white;
+	bottom: -1px;
+	line-height: 30px;
+	font-size: 0;
+	/*cursor: default;*/
+}
+/*.aside-nav .aside-nav-body .user:hover .user-center{
+	font-size: 12px;
+	background-color: #383838;
+	right: 30px;
+	transition-duration: 0.3s;
+}*/
+.aside-nav .aside-nav-body .user .user-icon{
+	font-size: 23px;
+	color: white;
+	width: 100%;
+	line-height: 29px;
+}
+/*.aside-nav .aside-nav-body .user:hover .user-icon{
+	background-color: black;
+}*/
+.aside-nav .aside-nav-body .cus-service{
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+.aside-nav .aside-nav-body .cus-service .cus-service-icon{
+	font-size: 23px;
+	color: white;
+	width: 100%;
+	padding: 5px 0;
+}
+.aside-nav .aside-nav-body .cus-service:hover .cus-service-icon{
+	background: black;
+}
+.aside-nav .aside-nav-body .shopping-cat{
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	padding: 5px 0;
+}
+.aside-nav .aside-nav-body .shopping-cat .car-num{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	text-align: center;
+	background-color: red;
+	color: white;
+	margin-top: 5px;
+	font-size: 12px;
+}
+.aside-nav .aside-nav-body .shopping-cat:hover .car-num{
+	background: white;
+	color: red;
+}
+.aside-nav .aside-nav-body .shopping-cat:hover,.aside-nav .qrcode:hover{
+	background-color: black;
+}
+.aside-nav .aside-nav-body .shopping-cat .word{
+	font-size: 16px;
+	color: white;
+}
+.aside-nav .aside-nav-body .shopping-cat .shopping-cat-icon{
+	font-size: 23px;
+	color: white;
+}
+.aside-nav .aside-nav-bottom{
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 5px;
+	width: 100%;
+	background-color: #383838;
+}
+.aside-nav .aside-nav-bottom .qrcode{
+	margin-top: 30px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.aside-nav .aside-nav-bottom .qrcode a{
+	color: white;
+	padding-bottom: 10px;
+	width: 20px;
+	display: inline-block;
+	border-bottom: 3px solid white;
+}
+.aside-nav .aside-nav-bottom .qrcode .qrcode-pic img{
+	position: absolute;
+	right: 30px;
+	bottom: 0;
+	height: 0;
+}
+.aside-nav .aside-nav-bottom .qrcode:hover .qrcode-pic img{
+	height: 150px;
+	transition-duration: 0.3s;
+}
+.aside-nav .aside-nav-bottom .go-top .go-top-icon{
+	color: white;
+	padding: 7px 0;
+}
+.aside-nav .aside-nav-bottom .go-top:hover{
+	background-color: black;
+}
+.main-bottom .inside{
+	width: 1200px;
+	margin: 0 auto;
+}
+.main-bottom .inside .top{
+	padding: 20px 0;
+	margin-left: 70px;
+}
+.main-bottom .inside .top .say{
+	float: left;
+}
+.main-bottom .inside .top .word{
+	float: left;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border:2px solid red;
+	text-align: center;
+	line-height: 50px;
+	position: relative;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+.main-bottom .inside .top>span{
+	display: inline-block;
+	padding-right: 70px;
+}
+.main-bottom .inside .top .word .blank{
+	width: 5px;
+	height: 5px;
+	display: inline-block;
+	position: absolute;
+	right: 2px;
+	bottom: 6px;
+	background-color: beige;
+}
+.main-bottom .inside .middle{
+	margin-left: 30px;
+}
+.main-bottom .inside .middle ul{
+	float: left;
+	font-size: 12px;
+	width: 150px;
+}
+.main-bottom .inside .middle .left{
+	display: inline-block;
+}
+.main-bottom .inside .middle .right{
+	display: inline-block;
+	vertical-align: top;
+	
+}
+.main-bottom .inside .middle .right .phone{
+	display: inline-block;
+	margin: 20px 0 20px 100px;
+}
+.main-bottom .inside .middle ul:nth-child(5){
+	border-right: 1px solid #ccc;
+}
+.main-bottom .inside .middle ul li{
+	margin-bottom: 7px;
+}
+.main-bottom .inside .middle ul li:first-child{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}

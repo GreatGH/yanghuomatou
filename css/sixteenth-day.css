@@ -1,0 +1,45 @@
+.guide{
+	width: 100%;
+	background-color: #FF2D52;
+	height: 50px;
+}
+.guide-body{
+	width: 1200px;
+	margin: 0 auto;
+}
+.guide-body .guide-left{
+	float: left;
+}
+.guide-body .guide-left:hover ul{
+	border-bottom: 1px solid #FF2D52;
+	box-sizing: border-box;
+	height: 50px;
+	transition-duration: 0.3s;
+	z-index: 1;
+}
+.guide-body .guide-left li{
+	line-height: 50px;
+	padding: 0 64px;
+	background-color: #EC193E;
+	height: 0;
+}
+.guide-body .guide-left li i{
+	float: right;
+	line-height: 50px;
+	font-style: normal;
+}
+.guide-body .guide-left .classify-title{
+	height: 50px;
+	z-index: 1;
+}
+.guide-body .guide-right{
+	float: left;
+	line-height: 50px;
+	padding-left: 5px;
+}
+.guide-body .guide-right li{
+	float: left;
+}
+.guide-body .guide-right li:hover{
+	background-color: #EC193E;
+}

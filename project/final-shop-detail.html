@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/public.css" />
+	</head>
+	<body>
+		<!--顶部nav-->
+		<div id="topnav-body"></div>
+		<!--搜索-->
+		<div id="search-body"></div>
+		<!--商品分类-->
+		<div id="classify-body"></div>
+		<!--商品详情-->
+		<div id="shop-detail-body" class="public-bottom"></div>
+		<!--侧边栏-->
+		<div id="aside-body" class="public-bottom"></div>
+		<!--底部-->
+		<div id="bottom-body" class="public-bottom"></div>
+	</body>
+</html>
+<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function(){
+		$('#topnav-body').load('public-nav.html')
+		$('#search-body').load('search.html')
+		$('#classify-body').load('classify-top.html')
+		$('#shop-detail-body').load('shop-detail.html')
+		$('#aside-body').load('aside-nav.html')
+		$('#bottom-body').load('bottom.html')
+	})
+</script>
